@@ -4,7 +4,7 @@
 //! It supports reading, querying, updating, and converting between formats.
 
 use anyhow::{Context, Result};
-use clap::{Parser, ValueEnum};
+use clap::{Parser, ValueEnum, CommandFactory};
 use colored::Colorize;
 use std::io::{self, Read};
 use std::path::PathBuf;
@@ -123,8 +123,10 @@ fn main() -> Result<()> {
     } else if cli.null_input {
         String::new()
     } else {
-        // Default to identity expression
-        ".".to_string()
+        // No expression provided - show help
+        Cli::command().print_help()?;
+        println!();
+        return Ok(());
     };
 
     if cli.verbose {
