@@ -1,6 +1,6 @@
 [package]
 name = "rq-cli"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 authors = ["Saorsa Labs <david@saorsalabs.com>"]
 description = "A lightweight and portable command-line YAML, JSON, and TOML processor with jq-like syntax"
