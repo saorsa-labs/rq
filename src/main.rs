@@ -4,7 +4,7 @@
 //! It supports reading, querying, updating, and converting between formats.
 
 use anyhow::{Context, Result};
-use clap::{Parser, ValueEnum, CommandFactory};
+use clap::{CommandFactory, Parser, ValueEnum};
 use colored::Colorize;
 use std::io::{self, Read};
 use std::path::PathBuf;
