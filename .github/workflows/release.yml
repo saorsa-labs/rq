@@ -197,7 +197,7 @@ jobs:
           prerelease: ${{ needs.validate.outputs.is_prerelease }}
           generate_release_notes: true
           body: |
-            ## rq ${{ needs.validate.outputs.version }}
+            ## rq-cli ${{ needs.validate.outputs.version }}
 
             A lightweight and portable command-line YAML, JSON, and TOML processor with jq-like syntax.
 
@@ -205,12 +205,7 @@ jobs:
 
             #### From Source
             ```bash
-            cargo install rq
-            ```
-
-            #### From Homebrew
-            ```bash
-            brew install rq
+            cargo install rq-cli
             ```
 
             #### Pre-built Binary
@@ -236,4 +231,4 @@ jobs:
 
             ---
 
-            See [crates.io](https://crates.io/crates/rq) for full documentation.
+            See [crates.io](https://crates.io/crates/rq-cli) for full documentation.

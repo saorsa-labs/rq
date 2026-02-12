@@ -1,4 +1,4 @@
-# rq - Rust Query Tool
+# rq-cli - Rust Query Tool
 
 A lightweight and portable command-line YAML, JSON, and TOML processor written in Rust. `rq` uses jq-like syntax but works seamlessly with multiple data formats.
 
@@ -20,8 +20,8 @@ A lightweight and portable command-line YAML, JSON, and TOML processor written i
 ### From Source
 
 ```bash
-git clone https://github.com/saorsa-labs/rq
-cd rq
+git clone https://github.com/saorsa-labs/rq-cli
+cd rq-cli
 cargo build --release
 ```
 

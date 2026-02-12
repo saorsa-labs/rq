@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "project": "rq-production-readiness",
+  "active": true,
+  "milestone": {
+    "number": 1,
+    "name": "Testing Infrastructure & Coverage"
+  },
+  "phase": {
+    "number": "1.2",
+    "name": "Comprehensive Unit Tests",
+    "plan": "phase-1.2.md"
+  },
+  "progress": {
+    "total_tasks": 5,
+    "completed_tasks": 0,
+    "current_task": "Task 1: Add Coverage Measurement"
+  },
+  "status": "in_progress",
+  "last_updated": "2026-02-12T16:35:00Z"
+}
