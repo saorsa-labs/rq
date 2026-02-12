@@ -1,0 +1,59 @@
+name = "test-project"
+version = "1.2.3"
+description = "A test project"
+
+[author]
+name = "Alice"
+email = "alice@example.com"
+
+[dependencies]
+foo = "1.0.0"
+bar = "2.1.0"
+
+[dev-dependencies]
+test = "3.0.0"
+
+[scripts]
+start = "node index.js"
+test = "jest"
+
+keywords = ["test", "sample"]
+active = true
+count = 42
+rate = 3.14
+
+[metadata]
+created = "2024-01-01"
+modified = "2024-06-15"
+
+[[users]]
+id = 1
+name = "Alice"
+active = true
+
+[[users]]
+id = 2
+name = "Bob"
+active = false
+
+[[users]]
+id = 3
+name = "Charlie"
+active = true
+
+[[items]]
+name = "item1"
+price = 10
+
+[[items]]
+name = "item2"
+price = 20
+
+[[items]]
+name = "item3"
+price = 30
+
+numbers = [1, 2, 3, 4, 5]
+
+[nested.deep]
+value = "found"
